@@ -35,3 +35,6 @@ public class ContactListService {
 Because Spring is clever enough this Object is created by default as Singleton, if you inject it into multiple classes, it will re-use the same instance
 
 These days apps are usually horizontally scaling, we do not deal with a lot of multithreading in today's world. Apps are scaled by spinning up multiple instances/containers.
+
+
+`@RestController` <-- using this annotation makes your methods REST API, add `@RequestMapping` for defining HTTP Method
